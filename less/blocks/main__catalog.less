@@ -1,0 +1,96 @@
+.main__catalog {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	.catalog__card {
+		position: relative;
+		width: 32%;
+		padding-left: 82px;
+		box-sizing: border-box;
+		min-height: 200px;
+
+		.catalog__card-headline {
+			margin-bottom: 10px;
+		}
+	}
+
+	.catalog__responsive {
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 22px;
+			left: 20px;
+			width: 33px;
+			height: 40px;
+			background: url("../img/icon-font-1.png");
+		}
+	}
+
+	.catalog__leyered-psd {
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 22px;
+			left: 12px;
+			width: 43px;
+			height: 44px;
+			background: url("../img/icon-font-2.png");
+		}
+	}
+
+	.catalog__font-awesome-icons {
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 22px;
+			left: 5px;
+			width: 47px;
+			height: 40px;
+			background: url("../img/icon-font-3.png");
+		}
+	}
+
+	.catalog__html-css {
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 24px;
+			left: 9px;
+			width: 52px;
+			height: 39px;
+			background: url("../img/icon-font-4.png");
+		}
+	}
+
+	.catalog__email {
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 24px;
+			left: 9px;
+			width: 51px;
+			height: 40px;
+			background: url("../img/icon-font-5.png");
+		}
+	}
+
+	.catalog__free-to-download {
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 20px;
+			left: 10px;
+			width: 36px;
+			height: 43px;
+			background: url("../img/icon-font-6.png");
+		}
+	}
+}

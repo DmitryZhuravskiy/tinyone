@@ -1,0 +1,110 @@
+.header__description {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	.description__text {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		width: 400px;
+		padding-left: 14px;
+		margin-top: 117px;
+
+		.description__text-title {
+			margin-top: 0;
+			margin-bottom: 21px;
+		}
+
+		.description__text-slogan {
+			font-size: 20px;
+			line-height: 24px;
+			color: #313841;
+			width: 350px;
+			margin-bottom: 4px;
+		}
+
+		.description__text-filling {
+			color: #555555;
+			padding-bottom: 40px;
+			margin-bottom: 0;
+		}
+
+		.description__text-submit {
+			position: relative;
+			width: 190px;
+			padding: 22px 0 22px 30px;
+			border: 2px #000000 solid;
+			border-radius: 6px;
+			background-color: transparent;
+			color: #2d2d2d;
+			text-transform: uppercase;
+			text-align: left;
+			font-weight: bold;
+
+			&:after {
+				position: absolute;
+				content: "";
+				top: 18px;
+				right: 28px;
+				width: 24px;
+				height: 18px;
+				background: url("../img/fa-cloud-download.png");
+			}
+
+			&:hover {
+				background-color: #010101;
+				color: #ffffff;
+
+				&:after {
+					position: absolute;
+					content: "";
+					top: 18px;
+					right: 28px;
+					width: 24px;
+					height: 18px;
+					background: url("../img/fa-cloud-download--hover.png");
+				}
+			}
+		}
+	}
+}
+
+.description__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 316px;
+	height: 470px;
+	margin-top: 50px;
+	margin-right: 47px;
+	background-color: #ffffff;
+	border-radius: 20px;
+
+	.logo__mobile {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-left: 53px;
+		padding-bottom: 34px;
+		position: relative;
+		width: 235px;
+		height: 348px;
+		background-color: #010101;
+		color: #fcdb00;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		line-height: 20px;
+
+		&:after {
+			position: absolute;
+			content: "";
+			top: 155px;
+			left: 70px;
+			width: 43px;
+			height: 43px;
+			background: url("../img/fingerprint--yellow.png");
+		}
+	}
+}

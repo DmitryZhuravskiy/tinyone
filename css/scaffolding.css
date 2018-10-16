@@ -1,0 +1,51 @@
+body {
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #898989;
+  font-style: normal;
+  font-weight: normal;
+  background-color: #ffffff;
+  margin-right: -1px;
+  margin-left: -1px;
+  box-sizing: padding-box;
+  overflow-x: hidden;
+  position: relative;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+span {
+  font-family: "PT Sans";
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 32px;
+}
+h2 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 32px;
+  color: #010101;
+}
+h3 {
+  font-family: "PT Sans";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 24px;
+  color: #010101;
+}
+/*# sourceMappingURL=scaffolding.css.map */

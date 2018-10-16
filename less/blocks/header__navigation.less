@@ -1,0 +1,58 @@
+.header__navigation {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	padding-top: 60px;
+
+	.navigation__logo {
+		display: block;
+		position: relative;
+		font-size: 30px;
+		line-height: 20px;
+		font-weight: bold;
+		color: #010101;
+		text-transform: lowercase;
+		padding-left: 67px;
+		padding-top: 12px;
+		vertical-align: middle;
+		letter-spacing: 0;
+
+		&:hover {
+			color: #313841;
+		}
+
+		&:before {
+			position: absolute;
+			content: "";
+			top: 0;
+			left: 13px;
+			width: 43px;
+			height: 43px;
+			background-image: url("../img/fingerprint.png");
+		}
+	}
+
+	.navigation__links {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+		padding-right: 4px;
+
+		.navigation__link {
+			padding: 0 3px 0 65px;
+			color: #010101;
+			font-size: 22px;
+			line-height: 20px;
+			font-weight: bold;
+
+			&:hover {
+				color: #313841;
+			}
+
+			&:active {
+				color: white;
+			}
+		}
+	}
+}
